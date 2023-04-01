@@ -22,7 +22,7 @@
 
 module RoutingFilter
   class Locale < Filter
-    @@include_default_locale = true
+    @@include_default_locale = false
     cattr_writer :include_default_locale
 
     class << self
